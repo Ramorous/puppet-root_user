@@ -5,7 +5,7 @@
   "dependencies": [],
   "license": "Apache-2.0",
   "name": "Ramorous-root_user",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "operatingsystem_support": [
     {
       "operatingsystem": "RedHat",
@@ -39,5 +39,8 @@
   "project_page": "https://github.com/Ramorous/puppet-root_user",
   "issues_url": "https://github.com/Ramorous/puppet-root_user/issues",
   "requirements": [],
-  "tags": []
+  "tags": [],
+  "dependencies": [
+    {"name":"puppetlabs/stdlib","version_requirement":">= 4.0.0 < 6.0.0"}
+  ]
 }
