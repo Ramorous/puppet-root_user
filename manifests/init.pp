@@ -13,11 +13,11 @@
 #    - Salt for Password Encryption
 #
 class root_user (
-  $class_enabled = $root_user::params::class_enabled,
-  $password      = $root_user::params::password,
-  $enc_type      = $root_user::params::enc_type,
-  $enc_salt      = $root_user::params::enc_salt,
-) inherits root_user::params {
+  $class_enabled = false,
+  $password      = undef,
+  $enc_type      = 'SHA-512',
+  $enc_salt      = 'Saltines',
+) {
   # Verify if target host is Linux
   if $::kernel == 'Linux' {
     # Perform Validations

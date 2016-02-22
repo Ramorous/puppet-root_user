@@ -5,7 +5,7 @@
   "dependencies": [],
   "license": "Apache-2.0",
   "name": "Ramorous-root_user",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "operatingsystem_support": [
     {
       "operatingsystem": "RedHat",
